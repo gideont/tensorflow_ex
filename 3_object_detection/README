@@ -1,0 +1,15 @@
+README
+======
+
+This example requires Tensorflow Object Detection API setup already.  
+https://github.com/tensorflow/models
+
+This example serves as a very basic application to quick test the Tensorflow Object API setup.  If everything is done correctly, run the below command will detect objects with a given picture.
+
+This example already include COCO-trained model ssdlite_mobilenet_v2_coco.  Users can interchange it with other models to evaluate results.
+https://github.com/tensorflow/models/blob/master/research/object_detection/g3doc/detection_model_zoo.md
+
+Steps to use the example:
+1. save a interesting picture as image name test_orig.jpg
+2. python3 detect_single_image.py
+3. view resulting pic test_result.jpg with bounding boxes of detected objects
